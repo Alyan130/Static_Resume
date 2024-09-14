@@ -1,0 +1,297 @@
+.resume {
+    margin: auto;
+    width: 65%;
+    box-shadow:0px 4px 8px rgba(10, 10, 10, 0.3), 0 6px 20px rgba(18, 17, 17, 0.3);
+}
+
+#info {
+    border-bottom: 2px black solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 220px;
+    background-color: darkcyan;
+    padding: 20px;
+}
+
+#info h1 {
+    font-size: 51px;
+    color: #fbf5ea;
+    margin: 0;
+}
+
+#personal-info {
+    width: 60%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    justify-content: center;
+}
+
+.p-info {
+    color: #fbf5ea;
+    font-size: 18px;
+    display: flex; 
+    align-items: center;
+}
+
+.icon {
+    width: 20px;
+    margin-left: 8px;
+}
+
+#phone, #email, #address {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 7px 0;
+}
+
+#color {
+    background-color: hsl(60, 10%, 96%);
+}
+
+h2 {
+    color: darkcyan;
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 17px;
+}
+
+#summary {
+    text-align: center;
+    padding: 12px;
+}
+
+#summary h2 {
+    text-decoration: none;
+}
+
+#summary div {
+    border: 1px black solid;
+    width: 335px;
+    margin: auto;
+}
+
+#education {
+    padding: 41px 33px;
+}
+
+.education-section {
+    line-height: 22px;
+    margin: -17px 0px;
+}
+
+.head {
+    font-weight: bolder;
+    font-size: 20px;
+    position: relative;
+    top: 17px;
+}
+
+#skills {
+    padding: 0px 33px;
+    margin: -12px 0px;
+}
+
+#skills button {
+    padding: 7px;
+    background-color: darkcyan;
+    color: white;
+    margin: 2px;
+    font-size: 14px;
+}
+
+#my-skills {
+    font-size: 18px;
+    display: none;
+}
+
+#projects {
+    padding: 0px 33px;
+    margin: 56px 0px;
+}
+
+.project-section {
+    padding: 10px 0px;
+    margin: -20px 0px;
+    line-height: 19px;
+}
+
+.pr-name {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#projects .project-section button {
+    padding: 5px;
+    background-color: darkcyan;
+    color: white;
+    margin: -13px 21px;
+    font-size: 14px;
+}
+
+#pr1-desc {
+    display: none;
+}
+
+#pr2-desc {
+    display: none;
+}
+
+@media (max-width: 1024px) {
+    .resume {
+        width: 80%;
+    }
+
+    #info {
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+    }
+
+    #info h1 {
+        font-size: 36px;
+        margin-bottom: 15px;
+    }
+
+    #personal-info {
+        width: 100%;
+        height: auto;
+        align-items: center;
+    }
+
+    #phone, #email, #address {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 5px 0;
+    }
+
+    #phone img, #email img, #address img {
+        margin-left: 8px;
+        width: 20px;
+    }
+}
+
+@media (max-width: 770px) {
+    .resume {
+        width: 90%;
+    }
+
+    #info h1 {
+        font-size: 28px;
+    }
+
+    #personal-info {
+        align-items: center;
+    }
+
+    #phone, #email, #address {
+        flex-direction: column;
+        align-items: center;
+        margin: 10px 0;
+    }
+
+    .p-info {
+        font-size: 16px;
+        text-align: center;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .icon {
+        margin-left: 5px;
+    }
+}
+
+@media (max-width: 678px) {
+    .resume {
+        width: 95%;
+        padding: 10px;
+        box-shadow: none;
+    }
+
+    #info {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    #info h1 {
+        font-size: 24px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    #personal-info {
+        width: 100%;
+        align-items: center;
+    }
+
+    #phone, #email, #address {
+        flex-direction: column;
+        align-items: center;
+        margin: 5px 0;
+    }
+
+    .p-info {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    #phone img, #email img, #address img {
+        margin-left: 5px;
+        width: 18px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    #education, #skills, #projects {
+        padding: 20px 10px;
+    }
+
+    #skills button, #projects .project-section button {
+        font-size: 12px;
+        padding: 5px;
+    }
+}
+
+@media (max-width: 480px) {
+    .resume {
+        width: 95%;
+    }
+
+    #info h1 {
+        font-size: 20px;
+    }
+
+    .p-info {
+        font-size: 12px;
+    }
+
+    #summary, #education, #skills, #projects {
+        padding: 15px 5px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
