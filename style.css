@@ -1,7 +1,12 @@
+#body{
+    background-color: #fff;
+}
+
 .resume {
     margin: auto;
     width: 65%;
     box-shadow:0px 4px 8px rgba(10, 10, 10, 0.3), 0 6px 20px rgba(18, 17, 17, 0.3);
+    border: 1px grey solid;
 }
 
 #info {
@@ -50,9 +55,6 @@
     margin: 7px 0;
 }
 
-#color {
-    background-color: hsl(60, 10%, 96%);
-}
 
 h2 {
     color: darkcyan;
@@ -76,7 +78,7 @@ p {
 
 #summary div {
     border: 1px black solid;
-    width: 335px;
+    width: 300px;
     margin: auto;
 }
 
@@ -110,13 +112,13 @@ p {
 }
 
 #my-skills {
-    font-size: 18px;
+    font-size: 17px;
     display: none;
 }
 
 #projects {
     padding: 0px 33px;
-    margin: 56px 0px;
+    margin: 50px 0px;
 }
 
 .project-section {
@@ -187,7 +189,7 @@ p {
     }
 
     #info h1 {
-        font-size: 28px;
+        font-size: 35px;
     }
 
     #personal-info {
@@ -226,7 +228,7 @@ p {
     }
 
     #info h1 {
-        font-size: 24px;
+        font-size: 35px;
         margin-bottom: 10px;
         text-align: center;
     }
@@ -253,7 +255,7 @@ p {
     }
 
     h2 {
-        font-size: 22px;
+        font-size: 33px;
     }
 
     p {
@@ -276,15 +278,18 @@ p {
     }
 
     #info h1 {
-        font-size: 20px;
+        font-size: 32px;
     }
 
     .p-info {
         font-size: 12px;
     }
 
-    #summary, #education, #skills, #projects {
+    #summary, #education, #skills,#projects {
         padding: 15px 5px;
+    }
+    #projects{
+          margin: -3px 0px;
     }
 
     h2 {
