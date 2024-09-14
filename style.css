@@ -1,5 +1,6 @@
-#body{
+body{
     background-color: #fff;
+    font-family: "Poppins",sans-serif;
 }
 
 .resume {
@@ -93,7 +94,7 @@ p {
 
 .head {
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 18px;
     position: relative;
     top: 17px;
 }
@@ -128,7 +129,7 @@ p {
 }
 
 .pr-name {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bolder;
 }
 
@@ -245,7 +246,7 @@ p {
     }
 
     .p-info {
-        font-size: 14px;
+        font-size: 15px;
         text-align: center;
     }
 
@@ -260,6 +261,9 @@ p {
 
     p {
         font-size: 15px;
+    }
+    #my-skills{
+        font-size:15px;
     }
 
     #education, #skills, #projects {
@@ -282,7 +286,7 @@ p {
     }
 
     .p-info {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     #summary, #education, #skills,#projects {
@@ -293,10 +297,13 @@ p {
     }
 
     h2 {
-        font-size: 20px;
+        font-size: 25px;
     }
 
     p {
-        font-size: 14px;
+        font-size: 15px;
+    }
+    #my-skills{
+        font-size:15px;
     }
 }
